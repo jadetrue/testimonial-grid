@@ -1,14 +1,19 @@
+import React from "react";
 import "./App.css";
-import Card from "./components/Card";
+import { TestimonialContext } from "./context/TestimonialContext";
+import Testimonials from "./services/Testimonials";
+import Container from "./components/Container";
 
 function App() {
-    return (
-        <div className="App">
-            <header className="App-header">
-                <Card />
-            </header>
-        </div>
-    );
+  const testimonials = Testimonials;
+
+  return (
+    <TestimonialContext.Provider value={{ testimonials }}>
+      <div className="h-full">
+        <Container />
+      </div>
+    </TestimonialContext.Provider>
+  );
 }
 
 export default App;

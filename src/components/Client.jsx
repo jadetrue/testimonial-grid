@@ -1,11 +1,21 @@
 import React from "react";
 
-const Client = () => {
+const Client = ({ name, position, imageUrl, ring = true }) => {
   return (
     <>
-      <div className="h-12 w-12 rounded-full bg-white"></div>
-      <h1 className="font-semibold">Patrick Abrams</h1>
-      <p className="font-medium">Verified Graduate</p>
+      <div className="flex flex-row">
+        <img
+          src={imageUrl}
+          alt={name}
+          className={`rounded-full w-fit m-2 mr-5 ${ring && "ring ring-white"}`}
+        />
+        <div className="flex flex-col place-content-start justify-center w-full">
+          <h1 className="font-semibold flex text-white">{name}</h1>
+          <p className="font-medium flex text-white opacity-50 text-[13px]">
+            {position}
+          </p>
+        </div>
+      </div>
     </>
   );
 };
