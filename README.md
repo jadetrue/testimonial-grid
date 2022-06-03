@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [https://jadetrue.github.io/testimonial-grid/](https://jadetrue.github.io/testimonial-grid/)
+- Solution URL: [https://www.frontendmentor.io/solutions/testimonial-grid-cra-and-tailwind-css-kQ6UwOnko0](https://www.frontendmentor.io/solutions/testimonial-grid-cra-and-tailwind-css-kQ6UwOnko0)
+- Live Site URL:[https://glowing-mooncake-8215b0.netlify.app/](https://glowing-mooncake-8215b0.netlify.app/)
 
 ## My process
 
