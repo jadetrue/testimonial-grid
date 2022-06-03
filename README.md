@@ -25,6 +25,9 @@ Users should be able to:
 
 ### Screenshot
 
+<img width="1625" alt="image" src="https://user-images.githubusercontent.com/39219696/171950879-add873b9-26b3-474a-b42d-bbba25914b37.png">
+
+
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
@@ -34,8 +37,8 @@ Users should be able to:
 
 ### Built with
 
-- CRA
-- Tailwind CSS ❤️
+- [CRA](https://reactjs.org/docs/create-a-new-react-app.html)
+- [Tailwind CSS](https://tailwindcss.com/) ❤️
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 
