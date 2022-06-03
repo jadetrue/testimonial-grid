@@ -12,11 +12,19 @@ const Card = ({
   ringColor,
   textDark,
   ring,
+  backgroundImage = false,
 }) => {
   return (
     <div
-      className={`${bgColor} h-full w-auto py-7 px-10 md:px-[50px] rounded-lg shadow-2xl flex flex-col justify-center`}
+      className={`${bgColor} h-full w-auto py-7 px-10 md:px-[50px] rounded-lg shadow-2xl flex flex-col justify-center relative`}
     >
+      {backgroundImage && (
+        <img
+          src="./images/bg-pattern-quotation.svg"
+          alt="Background quotation"
+          className="absolute top-0 right-6 md:right-28 h-[150px]"
+        />
+      )}
       <div>
         <Client
           name={name}
@@ -28,7 +36,7 @@ const Card = ({
         />
       </div>
       <div>
-        <div className="flex flex-col">
+        <div className="flex flex-col relative">
           <div className="my-5">
             <h2
               className={`text-left font-semibold ${

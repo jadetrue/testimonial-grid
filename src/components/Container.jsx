@@ -38,7 +38,8 @@ const Container = () => {
               quote={testimonials[0].quote}
               testimonialDescription={testimonials[0].testimonialDescription}
               bgColor={"bg-purple-500"}
-              ringColor={"purple-500"}
+              ringColor={"ring-[#A775F1]"}
+              backgroundImage={true}
             />
           </div>
           <div className="col-start-3 col-span-1">
@@ -82,7 +83,8 @@ const Container = () => {
               quote={testimonials[3].quote}
               testimonialDescription={testimonials[3].testimonialDescription}
               bgColor={"bg-blue-800"}
-              ringColor={"purple-500"}
+              ring={true}
+              ringColor={"ring-purple-500"}
             />
           </div>
         </div>

@@ -5,7 +5,7 @@ const Client = ({
   position,
   imageUrl,
   ring = true,
-  ringColor = "white",
+  ringColor,
   textDark,
 }) => {
   return (
@@ -16,7 +16,7 @@ const Client = ({
           alt={name}
           className={`rounded-full h-10 w-fit m-2 mr-5 ${
             ring && "ring"
-          } ring-${ringColor}`}
+          } ${ringColor}`}
         />
         <div className="flex flex-col place-content-start justify-center w-full">
           <h1
